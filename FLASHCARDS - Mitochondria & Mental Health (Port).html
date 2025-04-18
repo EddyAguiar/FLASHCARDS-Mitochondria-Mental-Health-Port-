@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards: Mitocôndrias e Saúde Mental</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f8fc;
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .flashcard {
+      width: 300px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      position: relative;
+    }
+    .flashcard h3 {
+      color: #114b5f;
+    }
+    .flashcard p {
+      display: none;
+      margin: 10px 0;
+    }
+    .flashcard.active p {
+      display: block;
+    }
+    .label {
+      font-weight: bold;
+      color: #028090;
+    }
+    .check {
+      color: #27ae60;
+      font-weight: bold;
+    }
+    .warning {
+      color: #e76f51;
+      font-weight: bold;
+    }
+    .example {
+      background: #f1f9ff;
+      padding: 10px;
+      border-left: 4px solid #3d5a80;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.flashcard');
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('active');
+      });
+    });
+  });
+</script>
+
+<!-- Flashcards traduzidos -->
+<div class="flashcard">
+  <h3>🧬 O que são as mitocôndrias além de "usinas de energia"?</h3>
+  <p><span class="label check">✅ Resposta:</span> Regulam neurotransmissores, hormônios e inflamação — não apenas produzem energia.</p>
+  <p><span class="label check">✅ Explicação:</span> Essas funções são vitais para a sobrevivência e comunicação das células cerebrais.</p>
+  <div class="example"><strong>🧪 Exemplo:</strong> Mitocôndrias disfuncionais podem prejudicar a sinalização de serotonina, afetando o humor.</div>
+</div>
+
+<div class="flashcard">
+  <h3>🧠 O que é a Teoria da Energia Cerebral?</h3>
+  <p><span class="label check">✅ Resposta:</span> Todos os transtornos mentais são, na verdade, transtornos metabólicos do cérebro.</p>
+  <p><span class="label check">✅ Explicação:</span> O mau funcionamento das mitocôndrias prejudica a atividade das células cerebrais, causando sintomas mentais.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🔗 Como as mitocôndrias afetam a saúde mental?</h3>
+  <p><span class="label check">✅ Resposta:</span> Mitocôndrias com problemas comprometem o funcionamento cerebral e provocam sintomas psiquiátricos.</p>
+  <p><span class="label check">✅ Explicação:</span> Neurônios sem energia suficiente funcionam mal e geram quadros de depressão, ansiedade ou esquizofrenia.</p>
+  <div class="example"><strong>🧪 Exemplo:</strong> Pacientes com transtorno bipolar mostram disfunções mitocondriais em exames cerebrais.</div>
+</div>
+
+<div class="flashcard">
+  <h3>🤝 Transtornos mentais e físicos estão ligados?</h3>
+  <p><span class="label check">✅ Resposta:</span> Sim — muitos compartilham as mesmas disfunções mitocondriais.</p>
+  <p><span class="label check">✅ Explicação:</span> Doenças como diabetes e depressão podem surgir juntas devido à raiz metabólica comum.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🏃‍♀️ Estilo de vida afeta as mitocôndrias?</h3>
+  <p><span class="label check">✅ Resposta:</span> Sono, exercícios, alimentação e estresse afetam diretamente as mitocôndrias.</p>
+  <p><span class="label check">✅ Explicação:</span> Hábitos saudáveis favorecem a produção de energia e reduzem inflamações no cérebro.</p>
+  <div class="example"><strong>🧪 Exemplo:</strong> Dietas cetogênicas podem melhorar o humor ao otimizar as mitocôndrias.</div>
+</div>
+
+<div class="flashcard">
+  <h3>💊 Qual o papel dos medicamentos?</h3>
+  <p><span class="label check">✅ Resposta:</span> Muitos atuam indiretamente melhorando a função mitocondrial e o metabolismo cerebral.</p>
+  <p><span class="label check">✅ Explicação:</span> Podem aumentar a energia celular e reduzir os danos causados pelo estresse.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🥗 A alimentação pode ajudar no tratamento?</h3>
+  <p><span class="label check">✅ Resposta:</span> Sim — dietas específicas podem melhorar a função mitocondrial e aliviar sintomas.</p>
+  <p><span class="label check">✅ Explicação:</span> Intervenções nutricionais influenciam o metabolismo cerebral e a neuroplasticidade.</p>
+</div>
+
+<div class="flashcard">
+  <h3>😰 Como o trauma psicológico afeta as mitocôndrias?</h3>
+  <p><span class="label warning">⚠️ Resposta:</span> Estresse crônico aumenta inflamações e danifica as mitocôndrias.</p>
+  <p><span class="label warning">⚠️ Explicação:</span> Isso piora quadros depressivos e compromete o funcionamento cognitivo com o tempo.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🚀 Por que essa teoria é revolucionária?</h3>
+  <p><span class="label check">✅ Resposta:</span> Une doenças mentais e físicas em um modelo metabólico comum.</p>
+  <p><span class="label check">✅ Explicação:</span> Propõe soluções práticas e acessíveis baseadas em mudanças no estilo de vida.</p>
+</div>
+
+<div class="flashcard">
+  <h3>🔄 Como é o processo de cura nesse modelo?</h3>
+  <p><span class="label check">✅ Resposta:</span> Apoiar as mitocôndrias pode reduzir ou reverter sintomas mentais.</p>
+  <p><span class="label check">✅ Explicação:</span> Envolve sono de qualidade, alimentação saudável, exercícios, controle do estresse e terapias metabólicas.</p>
+</div>
+
+</body>
+</html>
